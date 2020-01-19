@@ -16,7 +16,7 @@ int ret;
 
 dev_t dev_num;
 
-#define DEVICE_NAME  "usesr_device"
+#define DEVICE_NAME  "user_device"
 
 
 int device_open(struct inode *inode, struct file *filep){
